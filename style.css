@@ -92,3 +92,10 @@ h1 {
 .single-dot.active {
     background: #eee;
 }
+
+@media screen and (max-width: 520px) {
+    .next-btn,
+    .prev-btn {
+        font-size: 14px;
+    }
+}
